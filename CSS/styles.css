@@ -9,7 +9,7 @@
     left: 0;
     top: 0;
     width: 100%;
-    display: flex;
+    display: none;
     align-items: center;
     padding: 30px 5%;
     background-color: #24262b;
@@ -18,7 +18,7 @@
     
   }
   .head-mobile{
-    display: none;
+    display:flex;
   }
   
   .logo {
@@ -203,16 +203,44 @@
 
       .head{
         display: none;
+        left: 0;
+        top: 0;
+        width: 100%;
+        
       }
       .head-mobile{
+        padding: 25px 10px;
         display: flex;
+        width: 100%;
+        justify-content: space-between;
+      }
+
+      .btns{
+        display: flex;
+        
       }
       .pos1 {
         position: static;
       }
       
+      .nav__links{
+        position: absolute;
+        width: 100%;
+        left: 0px;
+        overflow-x: scroll;
+      }
+      
+      .nav__links::-webkit-scrollbar{
+        user-select: all;
+        height: 0px;
+      }
+      
+      
+      html {overflow: hidden;}
     }
 
+    
+    
     @media screen and (max-width: 768px) {
       
     }

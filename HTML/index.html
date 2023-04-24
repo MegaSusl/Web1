@@ -6,12 +6,13 @@
         <link rel="stylesheet" href="../CSS/styles.css">
         <link rel="stylesheet" href="../CSS/footer.css">
         <link rel="stylesheet" href="../CSS/navigation.css">
+        <meta name="viewport" content="width=device-width; initial-scale=1.0">
     </head>
     <body>
         <div class="pos1">
         <header class="head">
             <div class="logo">
-                <a class="logo" href="/"><h1>Logo</h1></a>
+                <a class="logo" href="index.html"><h1>Logo</h1></a>
                 
                 <div class="menu">
                     <img class="menu-button" alt="menu-button" src="../image/menu-bar.png" style="margin: 5px; background-color: white; border-radius: 20%; width: 30px; height: auto; display: flex;">
@@ -34,7 +35,8 @@
                 
         </header>
         <header class="head-mobile">
-            <a class="logo" href="/"><h1>Logo</h1></a>
+            <a class="logo" href="index.html"><h1>Logo</h1></a>
+            <div class="btns">
             <button><img src="../image/profile.png" alt="profile" style="background-color: white; border-radius: 50%; width: 35px; height: auto; display: flex;"></button>
             <div class="menu">
                 <img class="menu-button" alt="menu-button" src="../image/menu-bar.png" style="margin: 5px; background-color: white; border-radius: 20%; width: 30px; height: auto; display: flex;">
@@ -46,17 +48,22 @@
                   <li><a href="#">Лизинг</a></li>
                   <li><a href="#">Кредиты</a></li>
                 </ul>
-              </div>
+            </div>
+            </div>
         </header>
         <nav>
             <ul class="nav__links">
-                <li><a href="#">Легковые</a></li>
+                <li><a href="cars.html">Легковые</a></li>
                 <li><a href="#">Коммерческие</a></li>
                 <li><a href="#">Электро</a></li>
                 <li><a href="#">Мото</a></li>
                 <li><a href="#">Мото</a></li>
             </ul>
         </nav>
+        <form class="search-mobile">
+            <input type="text" placeholder="Поиск...">
+            <button type="submit">Найти</button>
+        </form>
         </div>
         <div class="body">
             
@@ -66,7 +73,7 @@
             <nav>
                 <ul class="nav__links">
                     <li><a href="#">Пользовательское соглашение</a></li>
-                    <li><a href="#">О нас</a></li>
+                    <li style="margin-top: 15px;"><a href="#">О нас</a></li>
                     <li><a href="#">Помощь</a></li>
                     <li><a href="#">Вакансии</a></li>
                     <li><a href="#">Реклама</a></li>

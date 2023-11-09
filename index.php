@@ -60,14 +60,10 @@
             </div>
           </nav>
           <div class="headerTabs">
-            <button type="button" class="btn btn-light">Легковые</button>
-            <button type="button" class="btn btn-light">Коммерческие</button>
-            <button type="button" class="btn btn-light">Электромобили</button>
-            <button type="button" class="btn btn-light">Мото</button>
-            <button type="button" class="btn btn-light">Легковые</button>
-            <button type="button" class="btn btn-light">Легковые</button>
-            <button type="button" class="btn btn-light">Легковые</button>
-            <button type="button" class="btn btn-light">Легковые</button>
+            <a href="catalog.php" class="btn btn-light">Легковые</a>
+            <a href="catalog.php" class="btn btn-light">Коммерческие</a>
+            <a href="catalog.php" class="btn btn-light">Электромобили</a>
+            <a href="catalog.php" class="btn btn-light">Мото</a>
           </div>
     </header>
     <main>
@@ -123,25 +119,18 @@
         ?>  
         
         <div class="range d-flex">
-          <input type="range" class="form-range" min="10000" max="300000000" step="10000" id="pricesRange" onchange="">
-          <div class="total-distance">Total: 50</div>
-          <button type="submit" class="btn">Показать предложения</button>
-        </div>
-        <div class="form-group">
-            <label for="distance" class="form-label">Aranılan lokasyona uzaklık</label>
-            <div id="distance">
-                <output id="result">40</output>
-                <span> km uzaklık</span>
+          <div class="col">                      
+            <div id="priceRange" class="d-flex">
+              <span class="me-2" >До: </span>
+              <output id="result">60000000</output>                
             </div>
-            
-            <input onmousemove="changeValue(this.value)" onchange="changeValue(this.value)" type="range" value="40" min="0" max="50" oninput="this.nextElementSibling.value = this.value" class="form-range" id="distance">
-          
-            <div class="total-distance">Total: 50</div>
+            <input onmousemove="changeValue(this.value)" onchange="changeValue(this.value)" type="range" value="60000000" min="10000" max="60000000" oninput="this.nextElementSibling.value = this.value" class="form-range pe-3" id="priceRange">        
+          </div>
+          <div class="col-auto">
+            <button type="submit" class="btn">Показать предложения</button>
+          </div>
         </div>
-
-
-
-
+        <h2>Рекомендации</h2>
         <div id="rectangle"></div>
       </div>
       <div class="container cards-container">
@@ -180,7 +169,7 @@
             <div class="col-auto">
               <div class="row">
                 <div class="col"><a href="#" class="footer-info">Пользовательское соглашение</a></div>
-                <div class="col"><a href="#" class="footer-info">О нас</a></div>
+                <div class="col"><a href="about.php" class="footer-info">О нас</a></div>
                 <div class="col"><a href="#" class="footer-info">Помощь</a></div>
                 <div class="col"><a href="#" class="footer-info">Вакансии</a></div>
                 <div class="col"><a href="#" class="footer-info">Реклама</a></div>

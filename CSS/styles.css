@@ -307,16 +307,61 @@
     box-shadow: 0 0 0 3px rgba(239, 71, 111, 0.3) !important;
   }
   /*  */
-  input{
-    margin-left: 100px;
-  }
-  
-  #distance{
-    width: 200px;
-    transition: .33s all;
+  #priceRange{
+    transition: .13s all;
   }
   /*  */
-
+  .side-filter{
+    border: 1px solid #ef476f;
+    padding: 20px 6px;
+    border-radius: 10px;
+    
+  }
+  .card-wide{
+    border: 1px solid #ef476f;
+    min-width: 0px;
+    width: 100%;
+    height: 20vh;
+    flex-direction: row;
+    margin: 0px;
+    
+  }
+  .card-wide-img{
+    height: inherit;
+  }
+  .card-wide img{
+    height: 100%;
+    /* width: 25%; */
+    border-radius: 0px;
+    border-radius: 14px 0 0 14px;
+  }
+  .card-wide-name{
+      height: inherit;
+      justify-content: flex-end;
+      padding: 12px 10px;
+  }
+  .card-wide-name p:first-child{
+    font-size: 24px;
+    font-weight: bold;
+  }
+  .card-wide-name p:nth-child(2n){
+    font-size: 18px;
+    text-wrap: balance;
+    line-height: 20px;
+  }
+  .card-wide-name p:last-child{
+    color: gray;
+  }
+  .card-wide-price{
+    height: inherit;
+    align-items: end;
+    justify-content: flex-end;
+    padding: 12px 12px;
+  }
+  .card-wide-price p{
+    font-size: 24px;
+    font-weight: bold;
+  }  
   @media (max-width: 900px){
     .headerTabs{
       justify-content: flex-start;

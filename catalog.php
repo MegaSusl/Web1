@@ -87,11 +87,12 @@
             <option value="2">Two</option>
             <option value="3">Three</option>
           </select>
+          <button type="submit" class="btn">Показать результаты</button>
         </form>
         
       </div>
       <div class="col">
-        <div class="card d-flex card-wide row mb-3">
+        <a href="card-template.php" class="card d-flex card-wide row mb-3">
           <div class="col p-0 card-wide-img">
             <img src="image/cars/Camry2100000202033000.jpeg" alt="test">
           </div>
@@ -102,25 +103,12 @@
           </div>
           <div class="col-2 d-flex flex-column card-wide-price">
             <p>2 100 000 P</p>
-            <a class="btn" href="card-template.php">Посмотреть</a>
+            <form action="tel:+79028844824">
+              <button type="submit" class="btn">Позвонить!</button>
+            </form>
           </div>
-        </div>
-        <div class="card d-flex card-wide row mb-3">
-          <div class="col p-0 card-wide-img">
-            <img src="image/cars/Camry2100000202033000.jpeg" alt="test">
-          </div>
-          <div class="col-6 d-flex flex-column card-wide-name">
-            <p>Camry</p>
-            <p>Какое-то описание Какое-то описание Какое-то описание Какое-то описание Какое-то описание Какое-то описание</p>
-            <p>2020 / 30000 км</p>
-          </div>
-          <div class="col-2 d-flex flex-column card-wide-price">
-            <p>2 100 000 P</p>
-            <a class="btn" href="#">Посмотреть</a>
-          </div>
-        </div>
+        </a>
       </div>
-    </div>
     
     </main>
     <footer class="footer">

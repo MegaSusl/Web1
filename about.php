@@ -58,53 +58,20 @@
     </header>
 
     <main class="container">
-    <div class="card-head px-3">
-      <div class="row">
-        <div class="col-8 d-flex align-items-center justify-content-between">
-          <p class="m-1">Camry</p>
+        <div class="col-8">
+            <div class="aboutus block-border">
+                
+            </div>
+            <div class="address block-border">
+
+            </div>
+            <div class="law-info block-border">
+
+            </div>
         </div>
-        <div class="col-4 d-flex justify-content-end align-items-center">
-          <p class="m-1">2 100 000P</p>
-          <a href="#" class="btn card-template-btn">Позвонить!</a>
+        <div class="col-4">
+
         </div>
-      </div>
-    </div>
-    <div class="card-main row mx-0">
-      <div class="col-3 car-specs">
-        <p>Марка:</p>
-        <p>Модель:</p>
-        <p>Год: 2022</p>
-        <p>Пробег: 30000</p>
-        <p>Объем: 3.4Л</p>
-        <p>Комплектация: Стандарт</p>
-      </div>
-      <div class="col-9 car-slider p-0">
-      <div id="carouselExample" class="carousel slide">
-        <div class="carousel-inner">
-          <div class="carousel-item active">
-            <img src="image/cars/Camry2100000202033000.jpeg" class="d-block w-100" alt="...">
-          </div>
-          <div class="carousel-item">
-            <img src="image/cars/Camry2100000202033000.jpeg" class="d-block w-100" alt="...">
-          </div>
-          <div class="carousel-item">
-            <img src="image/cars/Camry2100000202033000.jpeg" class="d-block w-100" alt="...">
-          </div>
-        </div>
-        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
-          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-          <span class="visually-hidden">Previous</span>
-        </button>
-        <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
-          <span class="carousel-control-next-icon" aria-hidden="true"></span>
-          <span class="visually-hidden">Next</span>
-        </button>
-      </div>
-      </div>
-    </div>
-    <div class="card-descr">
-      <p>Машина 2022 года крутая наверное да Машина 2022 года крутая наверное да Машина 2022 года крутая наверное да Машина 2022 года крутая наверное да</p>
-    </div>
     </main>
 
     <footer class="footer">
@@ -114,7 +81,7 @@
             <div class="col-auto">
               <div class="row">
                 <div class="col"><a href="#" class="footer-info">Пользовательское соглашение</a></div>
-                <div class="col"><a href="#" class="footer-info">О нас</a></div>
+                <div class="col"><a href="about.php" class="footer-info">О нас</a></div>
                 <div class="col"><a href="#" class="footer-info">Помощь</a></div>
                 <div class="col"><a href="#" class="footer-info">Вакансии</a></div>
                 <div class="col"><a href="#" class="footer-info">Реклама</a></div>

@@ -140,7 +140,8 @@
           ?>
           <div class="col-auto">
             <div class="card">
-              <a href="<?=BASEPATH . 'car/id=' . $cars[$i][0]?>" class="card-link">
+              <!-- <a href="<?=BASEPATH . 'car/id=' . $cars[$i][0]?>" class="card-link"> -->
+              <a href="card-template.php" class="card-link">
                 <img src="/image/cars/<?= $cars[$i][5]?>" alt="car">
                 <div class="card-body">
                   <h5 class="card-title"><? 

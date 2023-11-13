@@ -58,20 +58,29 @@
     </header>
 
     <main class="container">
+      <div class="row">
         <div class="col-8">
-            <div class="aboutus block-border">
-                
-            </div>
-            <div class="address block-border">
-
-            </div>
-            <div class="law-info block-border">
-
-            </div>
+          <div class="aboutus block-border">
+            <p class="about_head">Основная информация</p>
+            <p class="about_content">Авто.ру помогает купить или продать машину. Это не просто сайт, где каждый может найти или разместить объявление (хотя, конечно, каждый может), задача Авто.ру — оградить человека от неприятностей, связанных с куплей-продажей автомобиля</p>
+          </div>
+          <div class="address block-border">
+            <p class="about_head">Контактная информация</p>
+            <p class="about_content">Адрес: г.Владимир <br>
+                                     Телефон: 89028844824 <br>
+                                     Email: kirill07092003@mail.ru
+            </p>
+          </div>
+          <div class="law-info block-border">
+            <p class="about_head">Правовая информация</p>
+            <p class="about_content">Блаблаблаблабла, юристы пускай эту штуку пишут</p>
+          </div>
         </div>
         <div class="col-4">
-
+        <iframe id="iframe_map" src="https://yandex.ru/map-widget/v1/?um=constructor%3A1d9ad7f010ecd201194abebf87a63e2cefca44faf00c87fa31734928ad822c0c&amp;source=constructor" width="320" height="320" frameborder="0"></iframe>
         </div>
+      </div>
+        
     </main>
 
     <footer class="footer">

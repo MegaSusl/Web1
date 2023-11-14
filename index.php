@@ -70,7 +70,8 @@
       <div class="form-container">
         <form class="register-form">
           <div class="form-pos d-flex flex-column">
-          <div class="mb-3">
+          <a id="register-close" class="fa-solid fa-xmark user-btn"></a>
+          <div class="mb-3">            
             <label for="Login" class="form-label">Логин</label>
             <input type="text" class="form-control" id="Login" aria-describedby="Логин">
           </div>
@@ -179,6 +180,7 @@
           </div>
         </div>
     </footer>
+    <script src="https://code.jquery.com/jquery-3.7.1.js" integrity="sha256-eKhayi8LEQwp4NKxN+CfCh+3qOVUtJn3QNZ0TciWLP4=" crossorigin="anonymous"></script>
     <script src="js/input-range.js"></script>
     <script src="js/registration-popup.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-element-bundle.min.js"></script>

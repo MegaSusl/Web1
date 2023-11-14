@@ -77,7 +77,7 @@
           </div>
         </div>
         <div class="col-4">
-        <iframe id="iframe_map" src="https://yandex.ru/map-widget/v1/?um=constructor%3A1d9ad7f010ecd201194abebf87a63e2cefca44faf00c87fa31734928ad822c0c&amp;source=constructor" width="320" height="320" frameborder="0"></iframe>
+          <iframe id="iframe_map" src="https://yandex.ru/map-widget/v1/?um=constructor%3A1d9ad7f010ecd201194abebf87a63e2cefca44faf00c87fa31734928ad822c0c&amp;source=constructor" width="320" height="320" frameborder="0"></iframe>
         </div>
       </div>
         

@@ -474,6 +474,18 @@
     height: 2rem;
     width: 2rem;
   }
+  .about_content{
+    width: fit-content;
+    margin-left: 5%;
+    align-self: flex-start;
+  }
+  .about_content a{
+    transition: .33s all;
+  }
+  .about_content a:hover{
+    transition: .33s all;
+    color: #ef476f;
+  }
   @media (max-width: 900px){
     .headerTabs{
       justify-content: flex-start;

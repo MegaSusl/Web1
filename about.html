@@ -15,33 +15,35 @@
     <header>
         <nav class="navbar navbar-expand-lg bg-body-tertiary">
             <div class="container-fluid text-center ">
-              <a class="navbar-brand d-flex align-items-center me-2" href="index.html"><img src="image/racing.png" class="logo me-2"><span class="logo-text"> CarDrive</span></a>
+              <a class="navbar-brand d-flex align-items-center me-2" href="index.html"><img src="image/racing.png" class="logo me-2" alt="logo"><span class="logo-text"> CarDrive</span></a>
               <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
               </button>
               <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                <ul class="navbar-nav w-100 justify-content-between mb-2 mb-lg-0 align-items-center">
-                    <li class="nav-item">
-                      <div class="dropdown">
-                        <button class="dropdown-btn fa-solid fa-bars m-0" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false"></button>
-                          <ul class="dropdown-menu text-center">
-                              <li><a class="dropdown-item" href="#">Кредиты</a></li>
-                              <li><a class="dropdown-item" href="#">Страховки</a></li>
-                              <li><a class="dropdown-item" href="#">Отзывы</a></li>
-                              <li><a class="dropdown-item" href="#">Гарантии</a></li>
-                              <li><a class="dropdown-item" href="#">Лизинг</a></li>                            
-                              <li><a class="dropdown-item" href="admin.php">Admin</a></li>                            
-                          </ul>
-                      </div>                        
-                    </li>                    
-                    <form class="d-flex w-100 mx-2" role="search">
-                    <input class="form-control search-form" type="search" placeholder="Найти..." aria-label="Search">
-                    <button class="btn search" type="submit">Поиск</button>
-                    </form>
+                <ul class="navbar-nav w-auto justify-content-between mb-2 mb-lg-0 align-items-center">
                   <li class="nav-item">
-                    <a id="user-btn" class="user-btn fa-solid fa-user p-2"></a>
-                  </li>
-                </ul>
+                    <div class="dropdown">
+                      <button class="dropdown-btn fa-solid fa-bars m-0" role="button" data-bs-toggle="dropdown" aria-expanded="false"></button>
+                        <ul class="dropdown-menu text-center">
+                            <li><a class="dropdown-item" href="#">Кредиты</a></li>
+                            <li><a class="dropdown-item" href="#">Страховки</a></li>
+                            <li><a class="dropdown-item" href="#">Отзывы</a></li>
+                            <li><a class="dropdown-item" href="#">Гарантии</a></li>
+                            <li><a class="dropdown-item" href="#">Лизинг</a></li>                            
+                            <li><a class="dropdown-item" href="admin.php">Admin</a></li>                            
+                        </ul>
+                    </div>                        
+                  </li>                    
+                  
+                
+              </ul>
+              <form class="d-flex w-100 mx-2" role="search">
+                <input class="form-control search-form" type="search" placeholder="Найти..." aria-label="Search">
+                <button class="btn search" type="submit">Поиск</button>
+                </form>
+                <div class="nav-item">                  
+                  <a id="user-btn" class="user-btn fa-solid fa-user p-2"></a>
+                </div>
               </div>
             </div>
           </nav>
@@ -78,7 +80,7 @@
           </div>
         </div>
         <div class="col-4">
-          <iframe id="iframe_map" src="https://yandex.ru/map-widget/v1/?um=constructor%3A1d9ad7f010ecd201194abebf87a63e2cefca44faf00c87fa31734928ad822c0c&amp;source=constructor" width="320" height="320" frameborder="0"></iframe>
+          <iframe id="iframe_map" src="https://yandex.ru/map-widget/v1/?um=constructor%3A1d9ad7f010ecd201194abebf87a63e2cefca44faf00c87fa31734928ad822c0c&amp;source=constructor"></iframe>
         </div>
       </div>
         
@@ -87,7 +89,7 @@
     <footer class="footer">
         <div class="container-fluid text-center">
           <div class="row justify-content-between h-100 align-items-center w-100">
-            <div class="col-3 d-flex"><a class="d-flex" href="#"><img src="image/racing.png" class="logo me-2"><span class="logo-text"> CarDrive</span></a></div>
+            <div class="col-3 d-flex"><a class="d-flex" href="#"><img alt="logo" src="image/racing.png" class="logo me-2"><span class="logo-text"> CarDrive</span></a></div>
             <div class="col-auto">
               <div class="row">
                 <div class="col"><a href="#" class="footer-info">Пользовательское соглашение</a></div>

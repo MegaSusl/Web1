@@ -426,6 +426,8 @@
     width: 100%;
     min-height: 360px;
     height: calc(100% - 60px);
+    width: 320px;
+    height: 320px;
   }
   .about_head{
     color: #ef476f;

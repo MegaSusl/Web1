@@ -13,54 +13,40 @@
 
   <body>
     <header>
-        <nav class="navbar navbar-expand-lg bg-body-tertiary">
-            <div class="container-fluid text-center ">
-              <a class="navbar-brand d-flex align-items-center me-2" href="index.html"><img alt="logo" src="image/racing.png" class="logo me-2"><span class="logo-text"> CarDrive</span></a>
-              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-              </button>
-              <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                <ul class="navbar-nav w-100 justify-content-between mb-2 mb-lg-0 align-items-center">
-                    <li class="nav-item">
-                      <div class="dropdown">
-                        <button class="dropdown-btn fa-solid fa-bars m-0" role="button" data-bs-toggle="dropdown" aria-expanded="false"></button>
-                        <ul class="navbar-nav w-auto justify-content-between mb-2 mb-lg-0 align-items-center">
-                          <li class="nav-item">
-                            <div class="dropdown">
-                              <button class="dropdown-btn fa-solid fa-bars m-0" role="button" data-bs-toggle="dropdown" aria-expanded="false"></button>
-                                <ul class="dropdown-menu text-center">
-                                    <li><a class="dropdown-item" href="#">Кредиты</a></li>
-                                    <li><a class="dropdown-item" href="#">Страховки</a></li>
-                                    <li><a class="dropdown-item" href="#">Отзывы</a></li>
-                                    <li><a class="dropdown-item" href="#">Гарантии</a></li>
-                                    <li><a class="dropdown-item" href="#">Лизинг</a></li>                            
-                                    <li><a class="dropdown-item" href="admin.php">Admin</a></li>                            
-                                </ul>
-                            </div>                        
-                          </li>                    
-                          
-                        
-                      </ul>
-                      <form class="d-flex w-100 mx-2" role="search">
-                        <input class="form-control search-form" type="search" placeholder="Найти..." aria-label="Search">
-                        <button class="btn search" type="submit">Поиск</button>
-                        </form>
-                        <div class="nav-item">                  
-                          <a id="user-btn" class="user-btn fa-solid fa-user p-2"></a>
-                        </div>
-                      </div>                        
-                    </li>                    
-                    <form class="d-flex w-100 mx-2" role="search">
-                    <input class="form-control search-form" type="search" placeholder="Найти..." aria-label="Search">
-                    <button class="btn search" type="submit">Поиск</button>
-                    </form>
-                  <li class="nav-item">
-                    <a id="user-btn" class="user-btn fa-solid fa-user p-2"></a>
-                  </li>
-                
-              </div>
-            </div>
-          </nav>
+      <nav class="navbar navbar-expand-lg bg-body-tertiary">
+        <div class="container-fluid text-center ">
+          <a class="navbar-brand d-flex align-items-center me-2" href="index.html"><img src="image/racing.png" class="logo me-2" alt="logo"><span class="logo-text"> CarDrive</span></a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav w-auto justify-content-between mb-2 mb-lg-0 align-items-center">
+              <li class="nav-item">
+                <div class="dropdown">
+                  <button class="dropdown-btn fa-solid fa-bars m-0" role="button" data-bs-toggle="dropdown" aria-expanded="false"></button>
+                    <ul class="dropdown-menu text-center">
+                        <li><a class="dropdown-item" href="#">Кредиты</a></li>
+                        <li><a class="dropdown-item" href="#">Страховки</a></li>
+                        <li><a class="dropdown-item" href="#">Отзывы</a></li>
+                        <li><a class="dropdown-item" href="#">Гарантии</a></li>
+                        <li><a class="dropdown-item" href="#">Лизинг</a></li>                            
+                        <li><a class="dropdown-item" href="admin.php">Admin</a></li>                            
+                    </ul>
+                </div>                        
+              </li>                    
+              
+            
+          </ul>
+            <form class="d-flex w-100 mx-2" role="search">
+            <input class="form-control search-form" type="search" placeholder="Найти..." aria-label="Search">
+            <button class="btn search" type="submit">Поиск</button>
+            </form>
+            <div class="nav-item">                  
+              <a id="user-btn" class="user-btn fa-solid fa-user p-2"></a>
+            </div>  
+          </div>
+        </div>
+      </nav>
           <div class="headerTabs">
             <button type="button" class="btn btn-light">Легковые</button>
             <button type="button" class="btn btn-light">Коммерческие</button>
